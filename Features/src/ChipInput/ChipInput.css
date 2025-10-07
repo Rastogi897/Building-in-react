@@ -1,0 +1,30 @@
+.parent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.clips-container {
+  display: flex;
+  margin-top: 20px;
+}
+
+.clips {
+  border-radius: 12px;
+  margin: 4px;
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  padding: 4px 4px 4px 12px;
+  background-color: rgb(232, 232, 232);
+}
+
+.clip-button {
+  cursor: pointer;
+  margin-left: 8px;
+  border-radius: 8px;
+  border: none;
+  color: white;
+  background-color: rgb(119, 119, 119);
+}
