@@ -1,0 +1,15 @@
+.container {
+  margin: auto;
+  width: 30%;
+}
+
+.top-bar {
+  display: flex;
+  justify-content: space-between;
+}
+
+.movie-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

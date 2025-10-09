@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "Name": "Movie1",
+    "Rating": 8.2,
+    "Bookmark": false
+  },
+  {
+    "id": 2,
+    "Name": "Movie2",
+    "Rating": 5.7,
+    "Bookmark": false
+  },
+  {
+    "id": 3,
+    "Name": "Movie3",
+    "Rating": 6.5,
+    "Bookmark": false
+  },
+  {
+    "id": 4,
+    "Name": "Movie4",
+    "Rating": 4.2,
+    "Bookmark": false
+  },
+  {
+    "id": 5,
+    "Name": "Movie5",
+    "Rating": 9.1,
+    "Bookmark": false
+  },
+  {
+    "id": 6,
+    "Name": "Movie6",
+    "Rating": 7.7,
+    "Bookmark": false
+  },
+  {
+    "id": 7,
+    "Name": "Movie6",
+    "Rating": 1.7,
+    "Bookmark": false
+  }
+]
