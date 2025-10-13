@@ -5,13 +5,14 @@ import AuthApp from './AuthContextHook/AuthApp'
 import MovieDashboard from './MovieFilter_Bookmark/MovieDashboard'
 import Main from './Accordian/Main'
 import TicTacToe from './TicTacToe/TicTacToe'
+import OTP from './otpTabs/OTP'
 
 function App() {
   return (
     <>
       <BrowserRouter>
         <Routes>
-          <Route path="/" element={<TicTacToe />} />
+          <Route path="/" element={<OTP />} />
         </Routes>
       </BrowserRouter>
     </>
