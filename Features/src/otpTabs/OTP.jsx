@@ -23,6 +23,7 @@ const OTP = () => {
             // this is to prevent the default delete behavious done by the browser
             e.preventDefault();
 
+
             if (inputs[index] === "" && index > 0) {
                 inputRefs.current[index - 1].focus();
             }
