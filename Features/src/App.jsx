@@ -6,14 +6,15 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom'
 // import Main from './Accordian/Main'
 // import TicTacToe from './TicTacToe/TicTacToe'
 // import OTP from './otpTabs/OTP'
-import Sidebar from './Sidebar/Sidebar'
+// import Sidebar from './Sidebar/Sidebar'
+import ProgressBar from './ProgressBar/ProgressBar'
 
 function App() {
   return (
     <>
       <BrowserRouter>
         <Routes>
-          <Route path="/" element={<Sidebar />} />
+          <Route path="/" element={<ProgressBar />} />
         </Routes>
       </BrowserRouter>
     </>
