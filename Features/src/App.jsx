@@ -1,4 +1,5 @@
-import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import { BrowserRouter, Routes, Route, redirectDocument } from 'react-router-dom'
+import TransferList from './TransferList/TransferList'
 
 // import ChipInput from './ChipInput/ChipInput'
 // import AuthApp from './AuthContextHook/AuthApp'
@@ -7,14 +8,18 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom'
 // import TicTacToe from './TicTacToe/TicTacToe'
 // import OTP from './otpTabs/OTP'
 // import Sidebar from './Sidebar/Sidebar'
-import ProgressBar from './ProgressBar/ProgressBar'
+// import ProgressBar from './ProgressBar/ProgressBar'
+
+// --- TO BUILD ---
+// undo redo
+// transfer list
 
 function App() {
   return (
     <>
       <BrowserRouter>
         <Routes>
-          <Route path="/" element={<ProgressBar />} />
+          <Route path="/" element={<TransferList />} />
         </Routes>
       </BrowserRouter>
     </>
