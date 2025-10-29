@@ -1,17 +1,22 @@
 import express from "express";
 import cors from "cors"
+import router from "./Routes/testRoutes.js";
+import leaderBoardRoute from "./Routes/leaderBoardRoute.js";
 
 const app = express();
+const PORT = 5000;
 
 app.use(cors());
 app.use(express.json());
 
-const PORT = 5000;
+// HTTP Routes
+app.use("/", router)
+app.use("/", leaderBoardRoute)
 
 app.listen(PORT, () => {
     console.log("Running Backend: PORT 5000");
 })
 
-app.get("/test", (req, res) => {
-    res.json({ message: "Message from test API" })
+app.get("/live", (req, res) => {
+    res.json({ message: "The server is LIVE" })
 })

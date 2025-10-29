@@ -1,6 +1,7 @@
 import { BrowserRouter, Routes, Route, redirectDocument } from 'react-router-dom'
-import VirtualList from './VirtualList/VirtualList'
+import Leaderboard from './Leaderboard/Leaderboard'
 
+// import VirtualList from './VirtualList/VirtualList' 
 // import TransferList from './TransferList/TransferList'
 // import ChipInput from './ChipInput/ChipInput'
 // import AuthApp from './AuthContextHook/AuthApp'
@@ -19,7 +20,7 @@ function App() {
     <>
       <BrowserRouter>
         <Routes>
-          <Route path="/" element={<VirtualList />} />
+          <Route path="/" element={<Leaderboard />} />
         </Routes>
       </BrowserRouter>
     </>
