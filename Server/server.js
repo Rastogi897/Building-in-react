@@ -1,6 +1,6 @@
 import express from "express";
 import cors from "cors"
-import router from "./Routes/testRoutes.js";
+import testRoute from "./Routes/testRoutes.js";
 import leaderBoardRoute from "./Routes/leaderBoardRoute.js";
 
 const app = express();
@@ -10,7 +10,7 @@ app.use(cors());
 app.use(express.json());
 
 // HTTP Routes
-app.use("/", router)
+app.use("/", testRoute)
 app.use("/", leaderBoardRoute)
 
 app.listen(PORT, () => {
