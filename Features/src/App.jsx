@@ -1,6 +1,7 @@
 import { BrowserRouter, Routes, Route, redirectDocument } from 'react-router-dom'
 import Leaderboard from './Leaderboard/Leaderboard'
 import Debounce from './Debouncing/debounce'
+import Throttling from './Throttling/Throttling'
 
 // import VirtualList from './VirtualList/VirtualList' 
 // import TransferList from './TransferList/TransferList'
@@ -21,7 +22,7 @@ function App() {
     <>
       <BrowserRouter>
         <Routes>
-          <Route path="/" element={<Debounce />} />
+          <Route path="/" element={<Throttling />} />
         </Routes>
       </BrowserRouter>
     </>
