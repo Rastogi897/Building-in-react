@@ -1,5 +1,6 @@
 import { BrowserRouter, Routes, Route, redirectDocument } from 'react-router-dom'
 import Leaderboard from './Leaderboard/Leaderboard'
+import Debounce from './Debouncing/debounce'
 
 // import VirtualList from './VirtualList/VirtualList' 
 // import TransferList from './TransferList/TransferList'
@@ -20,7 +21,7 @@ function App() {
     <>
       <BrowserRouter>
         <Routes>
-          <Route path="/" element={<Leaderboard />} />
+          <Route path="/" element={<Debounce />} />
         </Routes>
       </BrowserRouter>
     </>
@@ -28,3 +29,4 @@ function App() {
 }
 
 export default App
+// RUN: npm run dev
