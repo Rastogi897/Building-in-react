@@ -2,6 +2,7 @@ import { BrowserRouter, Routes, Route, redirectDocument } from 'react-router-dom
 import Leaderboard from './Leaderboard/Leaderboard'
 import Debounce from './Debouncing/debounce'
 import Throttling from './Throttling/Throttling'
+import ContextApp from './ContextAPI/ContextApp'
 
 // import VirtualList from './VirtualList/VirtualList' 
 // import TransferList from './TransferList/TransferList'
@@ -22,7 +23,7 @@ function App() {
     <>
       <BrowserRouter>
         <Routes>
-          <Route path="/" element={<Throttling />} />
+          <Route path="/" element={<ContextApp />} />
         </Routes>
       </BrowserRouter>
     </>
