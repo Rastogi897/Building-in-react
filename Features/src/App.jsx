@@ -3,6 +3,7 @@ import Leaderboard from './Leaderboard/Leaderboard'
 import Debounce from './Debouncing/debounce'
 import Throttling from './Throttling/Throttling'
 import ContextApp from './ContextAPI/ContextApp'
+import Search from './DebounceSearch/Search'
 
 // import VirtualList from './VirtualList/VirtualList' 
 // import TransferList from './TransferList/TransferList'
@@ -23,7 +24,7 @@ function App() {
     <>
       <BrowserRouter>
         <Routes>
-          <Route path="/" element={<ContextApp />} />
+          <Route path="/" element={<Search />} />
         </Routes>
       </BrowserRouter>
     </>
