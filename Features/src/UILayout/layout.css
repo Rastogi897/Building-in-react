@@ -1,0 +1,43 @@
+/* 
+The main issue I faced is: to make the mid container take the available full height
+
+Make the main-container flex, with direction column
+and give mid-container flex: 1 to take the whole available height
+*/
+
+.main-container {
+  height: 100vh;
+  background-color: rgb(207, 207, 207);
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  background-color: gray;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+}
+
+.mid-container {
+  background-color: orange;
+  display: flex;
+  flex: 1;
+}
+
+.left,
+.right {
+  width: 80px;
+  background-color: rgb(252, 150, 150);
+}
+
+.center {
+  flex: 1;
+}
+
+.footer {
+  background-color: gray;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+}
