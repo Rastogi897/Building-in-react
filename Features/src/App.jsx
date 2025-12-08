@@ -1,10 +1,9 @@
 import { BrowserRouter, Routes, Route, redirectDocument } from 'react-router-dom'
-import Leaderboard from './Leaderboard/Leaderboard'
-import Debounce from './Debouncing/debounce'
-import Throttling from './Throttling/Throttling'
-import ContextApp from './ContextAPI/ContextApp'
-import Search from './DebounceSearch/Search'
-
+// import Leaderboard from './Leaderboard/Leaderboard'
+// import Debounce from './Debouncing/debounce'
+// import Throttling from './Throttling/Throttling'
+// import ContextApp from './ContextAPI/ContextApp'
+// import Search from './DebounceSearch/Search'
 // import VirtualList from './VirtualList/VirtualList' 
 // import TransferList from './TransferList/TransferList'
 // import ChipInput from './ChipInput/ChipInput'
@@ -15,6 +14,7 @@ import Search from './DebounceSearch/Search'
 // import OTP from './otpTabs/OTP'
 // import Sidebar from './Sidebar/Sidebar'
 // import ProgressBar from './ProgressBar/ProgressBar'
+import Users from './CustomHook/Users'
 
 // --- TO BUILD ---
 // undo redo
@@ -24,7 +24,7 @@ function App() {
     <>
       <BrowserRouter>
         <Routes>
-          <Route path="/" element={<Search />} />
+          <Route path="/" element={<Users />} />
         </Routes>
       </BrowserRouter>
     </>
